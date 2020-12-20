@@ -1,0 +1,60 @@
+body {
+  }
+
+.container {
+  background-color: #fff; }
+
+.dropdown-item {
+  color: #fff; }
+
+nav i {
+  color: #fff; }
+
+h3 {
+  text-align: center;
+  color: #fff; }
+.navbar-brand{
+    font-size: 40px;
+    font-weight: 500;
+}
+.col p {
+  text-align: center;
+  color: #fff; }
+#cart{
+    color: white;
+    font-size:30px;
+}
+#navbarNavAltMarkup{
+    
+}
+#navbarDropdownMenuLink{
+  color: lightgray;
+}
+#login{
+     color: white;
+    font-size:30px;
+}
+#loginlogout{
+    font-size:15px; 
+    top: -5px;
+}
+#goldenStar{
+    color: gold;
+}
+#greyStar{
+    color: lightgrey;
+}
+#columnPro{
+    text-align: center;
+}
+#shopImage{
+    height: 225px;
+}
+
+
+
+footer{
+    text-align: center;
+    color: white;
+}
+/*# sourceMappingURL=main.css.map */

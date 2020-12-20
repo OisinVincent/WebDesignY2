@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+     <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles/main.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Login</title>
+  </head>
+  <body class="">
+      <div class="container">
+          
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+             <a class="navbar-brand" href="index.html">FITNESS</a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            </div>
+            <div class="btn-group">
+               <a class="input-group"  href="login.html">
+               <button type="button" href="login.html" class="btn"><i style="color: white; font-size:30px "class="fa fa-user-circle-o  "></i><span class="badge badge-warning  ml-1" id="loginlogout" style="font-size:15px; top: -5px"></span></button>
+               </a>
+            </div>
+            <div class="btn-toolbar">
+               <a class="input-group float-right" href="checkout.html">
+               <button type="button" class="btn">
+               <i class="fa" style="font-size:30px;">&#xf07a;</i><span class="badge badge-warning  ml-1" id="checkout"></span>
+               </button>
+               </a>
+            </div>
+         </nav>
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+               <div class="navbar-nav">
+                  <a class="nav-link nav-item " href="index.html">HOME</a>
+                  <a class="nav-link" href="contact.html">CONTACT</a>
+                  <a class="nav-link" href="aboutUs.html">ABOUT US</a>
+                  <div class="btn-group">
+                     <a class="nav-link" href="shop.html">SHOP</a>
+                     <a type="button" style="color: darkgrey"id="navbarDropdownMenuLink"class=" nav-item dropdown btn bg-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     </a>
+                     <div class="dropdown-menu  bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="protein.html" >PROTEINS</a>
+                        <a class="dropdown-item" href="clothes.html" >CLOTHING</a>
+                        <a class="dropdown-item" href="supplements.html" >SUPPLEMENTS</a> 
+                     </div>
+                  </div>
+                   
+               </div>
+                
+            </div>
+          </nav><!--
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary"  id="loginlogout" href="#">Login</button>
+        <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu" id="accountdetails" aria-labelledby="dropdownMenuReference">
+          <a class="dropdown-item" href="userdetails.html">User Details</a>
+        </div>
+    </div>-->
+    <h1>Login</h1>
+    <div class="row">    
+        <div class="col-sm col-md-4"> 
+            <div class="alert alert-danger d-none" role="alert" id="loginerror">The username or password you entered is incorrect. <a href="">Forgot your password?</a></div>    
+            <form name="login" action="" method="get">
+                <div class="form-group">
+                    <label for="getEmail">Email address</label>
+                    <input type="email" class="form-control" id="getEmail" name="email" value="wmitty@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="getPassword1">Password</label> 
+                    <input type="password" class="form-control" id="getPassword1" name="password" value="password1" required>
+                </div>    
+                <input type='submit' class="btn btn-primary" value="Login">
+                <input type="button" id="forgotPassword" class="btn btn-primary"  value="Forgot Password?">
+            </form>
+
+        </div> 
+    </div>   
+    <br>
+<h1>Create An Account</h1>
+    <div class="row">    
+        <div class="col-sm col-md-4"> 
+            
+            <form name="login" action="" method="get">
+                <div class="form-group">
+                    <label for="getfName">First Name</label>
+                    <input type="fName" class="form-control" id="getfName" name="fname" value="First Name" required>
+                    <label for="getlName">Last Name</label>
+                    <input type="lName" class="form-control" id="getlName" name="lName" value="Last Name" required>
+                  <label for="getEmail">Email address</label>
+                    <input type="email" class="form-control" id="getEmail" name="email"  required>
+                </div>
+                <div class="form-group">
+                    <label for="getPassword2">Password</label> 
+                    <input type="password" class="form-control" id="getPassword2" name="password" value="password2" required>
+                    <label for="getPassword2">Reconfirm Password</label> 
+                    <input type="password" class="form-control" id="getPassword2" name="password" value="password2" required>
+                </div>    
+                <input type='submit' class="btn btn-primary" value="Create">
+            </form>
+            <p> <a href="#">Need to Register?</a></p>
+
+        </div> 
+    </div>   
+      </div>
+
+    <script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="custom-js/custom.js"></script>   
+    
+</body>
+</html>
+
+
+
