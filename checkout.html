@@ -15,44 +15,46 @@
 <body>
 <div class="container">
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+             <a class="navbar-brand" href="index.html">FITNESS</a>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-               <div class="navbar-nav">
-                  <h1 class="nav-link active" href="bootstrapIndex.html">FITNESS<span class="sr-only">(current)</span></h1>
-               </div>
             </div>
             <div class="btn-group">
-                <a class="input-group"  href="login.html">
+               <a class="input-group"  href="login.html">
                <button type="button" href="login.html" class="btn"><i style="color: white; font-size:30px "class="fa fa-user-circle-o  "></i><span class="badge badge-warning  ml-1" id="loginlogout" style="font-size:15px; top: -5px"></span></button>
                </a>
             </div>
             <div class="btn-toolbar">
-         <a class="input-group float-right" href="checkout.html">
-        <button type="button" class="btn">
-          <i class="fa" style="color: white; font-size:30px ">&#xf07a;</i><span class="badge badge-warning  ml-1" id="checkout"></span>
-        </button>
-        </a>
-    </div> 
-
+               <a class="input-group float-right" href="checkout.html">
+               <button type="button" class="btn">
+               <i class="fa" id="cart">&#xf07a;</i><span class="badge badge-warning  ml-1" id="checkout"></span>
+               </button>
+               </a>
+            </div>
          </nav>
          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                <div class="navbar-nav">
-                  <a class="nav-link" href="index.html">HOME</a>
-                   <a class="nav-link" href="contact.html">CONTACT</a>
-                   <a class="nav-link" href="aboutUs.html">ABOUT US</a>
-                    <a class="nav-link" href="shop.html">SHOP</a>
-
-  <a type="button" style="color: darkgrey"class="btn bg-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-     </a>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="protein.html">PROTEINS</a>
-    <a class="dropdown-item" href="clothes.html">CLOTHING</a>
-    <a class="dropdown-item" href="supplements.html">SUPPLEMENTS</a> 
-  </div>
-</div>
-             </div>
-             
+                  <a class="nav-link nav-item " href="index.html">HOME</a>
+                  <a class="nav-link" href="contact.html">CONTACT</a>
+                  <a class="nav-link" href="aboutUs.html">ABOUT US</a>
+                  <div class="btn-group">
+                     <a class="nav-link" href="shop.html">SHOP</a>
+                     <a type="button" style="color: darkgrey"id="navbarDropdownMenuLink"class=" nav-item dropdown btn bg-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     </a>
+                     <div class="dropdown-menu  bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="protein.html" >PROTEINS</a>
+                        <a class="dropdown-item" href="clothes.html" >CLOTHING</a>
+                        <a class="dropdown-item" href="supplements.html" >SUPPLIEMENTS</a> 
+                     </div>
+                  </div>
+                   
+               </div>
+                
+            </div>
             <form class="form-inline">
                <div class="input-group md-form form-sm form-2 pl-0">
                   <input class="form-control my-0 py-0  " type="search" placeholder="SEARCH" aria-label="Search">

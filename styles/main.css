@@ -50,11 +50,18 @@ h3 {
 #shopImage{
     height: 225px;
 }
-
-
+#price{
+    float: right;
+   font-weight: 500;
+    padding-right: 40px;
+}
+#aboutUs{
+    text-align: center;
+}
 
 footer{
     text-align: center;
     color: white;
 }
+
 /*# sourceMappingURL=main.css.map */
